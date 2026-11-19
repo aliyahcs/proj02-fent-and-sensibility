@@ -11,7 +11,7 @@ _Who has the problem, what decision or need it involves, why it matters, and wha
 - **Who:** California's Department of Health Care Services (DHCS) and county public health departments, which give out free naloxone (Narcan) through the Naloxone Distribution Project since 2018.
 - **Decision:** How to split a limited naloxone supply across 58 counties; If the distribution project is worth continuing.
 - **Why it matters:** Opioid overdoses, mostly fentanyl, are a leading cause of preventable death in California. Naloxone reverses opioid overdoses, so if it works and reaches the right places, more overdoses should end in survival.
-- **What we expect:** Counties with more naloxone per person will have a smaller share of fatal overdoses. The effect may be weak since naloxone is typically sent where overdoses rates are already high, and COVID drastically changed overdose patterns shortly after the Naloxone Distribution Project began.
+- **What we expect:** Counties with more naloxone per person will have a smaller share of fatal overdoses. 
 
 ## 2. Research question
 
