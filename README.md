@@ -9,7 +9,7 @@ See the [Project 02 instructions](https://data385.github.io/project/proj02_whole
 _Who has the problem, what decision or need it involves, why it matters, and what you expect to find._
 
 - **Who:** California's Department of Health Care Services (DHCS) and county public health departments, which give out free naloxone (Narcan) through the Naloxone Distribution Project since 2018.
-- **Decision:** How to split a limited naloxone supply across 58 counties
+- **Decision:** How to split a limited naloxone supply across 58 counties; If the distribution project is worth continuing.
 - **Why it matters:** Opioid overdoses, mostly fentanyl, are a leading cause of preventable death in California. Naloxone reverses opioid overdoses, so if it works and reaches the right places, more overdoses should end in survival.
 - **What we expect:** Counties with more naloxone per person will have a smaller share of fatal overdoses. The effect may be weak since naloxone is typically sent where overdoses rates are already high, and COVID drastically changed overdose patterns shortly after the Naloxone Distribution Project began.
 
@@ -21,23 +21,32 @@ In California counties, is naloxone distribution per 100,000 residents associate
 
 ## 3. Data acquisition
 
-All sources are public government data, joined by county and year
-
-- Opioid overdose deaths, ER visits, and buprenorphine prescriptions (main addiction treatment drug to consider; may influence rate of fatal overdoses as well) by county and year (2017–2024): downloaded as CSVs from the [CDPH Overdose Surveillance Dashboard](https://skylab.cdph.ca.gov/ODdash/)
-- Naloxone kits per 100k by county: from [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/)
-- Poverty rate (as a control): [Census American Community Survey](https://data.census.gov/) 
-- Rural/urban codes (also as a control): [USDA Rural-Urban Continuum Codes](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/)
-
+We intend to gather data from the California Overdose Surveillance Dashboard and the Naloxone Distribution Project. Both of these are publicly available government datasets that can be downloaded.
 
 ### a. Confirm viability
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
+
+California Overdose Surveillance Dashboard Data
+Citation: California Overdose Surveillance Dashboard. Prepared by California Department of Public Health (CDPH) - Substance and Addiction Prevention Branch (SAPB). Accessed on 11/18/26. https://skylab.cdph.ca.gov/ODdash/.
+[Data Definitions](https://skylab.cdph.ca.gov/ODdash/?tab=DD)
+[Technical Documentation](https://skylab.cdph.ca.gov/ODdash/?tab=MTH)
+Data was collected from California Department of Public Health 
+
+Naloxone Distribution Project Data
+Citation: California Department of Health Care Services. (n.d.). Naloxone Distribution Project data. DHCS Opioid Response. Retrieved November 18, 2026, from https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/
+- Naloxone kits per 100k by county: from [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/)
+Data was collected by Naloxone Distribution Project
 
 
 ### b. Variables of interest
 
 _If you do not have the data yet, list the variables you plan to collect and the exact question text. Include 1) the variable name, 2) data type 3) description. Use bullet points._
 
+Overdose Rate: Quantitative
+Overdose Count: Quantitative
+Naloxone Distribution Rate by County: Quantitative
+Stability: Categorical
 
 ## 4. Data example
 
