@@ -49,6 +49,7 @@ _If you do not have the data yet, list the variables you plan to collect and the
 - Naloxone Distribution Rate by County: Quantitative
 - ER Visits: Quantitative
 - Stability: Categorical
+- Year: Categorical (before/after Naloxone)
 
 ## 4. Data example
 
