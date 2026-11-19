@@ -36,7 +36,7 @@ _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, l
 
 **Naloxone Distribution Project Data:**
 - Citation: California Department of Health Care Services. (n.d.). Naloxone Distribution Project data. DHCS Opioid Response. Retrieved November 18, 2026, from https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/
-- [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/), [Figure URL](https://datawrapper.dwcdn.net/7e1b4/29/)
+- [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/), [Figure URL](https://datawrapper.dwcdn.net/7e1b4/29/data.csv)
 - Data was collected by Naloxone Distribution Project
 
 **US Census Bureau Poverty Data Tables (2017-2024):**
@@ -57,12 +57,12 @@ _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, l
 
 _If you do not have the data yet, list the variables you plan to collect and the exact question text. Include 1) the variable name, 2) data type 3) description. Use bullet points._
 
-- Naloxone kits by 100k
-- Overdose Rate: Quantitative
-- Overdose Count: Quantitative
-- Naloxone Distribution Rate by County: Quantitative
-- ER Visits: Quantitative
-- Stability: Categorical
+- County: Categorical
+- Rate (Any Opioid Overdose Deaths): Quantitative
+- Count (Any Opioid Overdose): Quantitative
+- Rate (Any Opioid-Related Overdose ED Visits): Quantitative
+- Value (Naloxone Kits Distribution Rate by County per 100k residents): Quantitative
+- Stability (Rate of overdose over time): Categorical
 - Year: Categorical (before/after Naloxone)
 
 ## 4. Data example
