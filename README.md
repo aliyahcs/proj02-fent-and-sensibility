@@ -28,24 +28,25 @@ In California counties, is the amount of naloxone distribution per 100k resident
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
 
-California Overdose Surveillance Dashboard Data:
+**California Overdose Surveillance Dashboard Data:**
 - Citation: California Overdose Surveillance Dashboard. Prepared by California Department of Public Health (CDPH) - Substance and Addiction Prevention Branch (SAPB). Accessed on 11/18/26. https://skylab.cdph.ca.gov/ODdash/.
 - [Data Definitions](https://skylab.cdph.ca.gov/ODdash/?tab=DD)
 - [Technical Documentation](https://skylab.cdph.ca.gov/ODdash/?tab=MTH)
 - Data was collected from California Department of Public Health 
 
-Naloxone Distribution Project Data:
+**Naloxone Distribution Project Data:**
 - Citation: California Department of Health Care Services. (n.d.). Naloxone Distribution Project data. DHCS Opioid Response. Retrieved November 18, 2026, from https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/
-- Naloxone kits per 100k by county: from [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/), [Figure URL](https://datawrapper.dwcdn.net/7e1b4/29/)
+- [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/), [Figure URL](https://datawrapper.dwcdn.net/7e1b4/29/)
 - Data was collected by Naloxone Distribution Project
 
-US Census Bureau Poverty Data Tables:
-- Poverty rate: Census American Community [Census American Community Survey](https://data.census.gov/)
+**US Census Bureau Poverty Data Tables (2017-2024):**
+- Citation: U.S. Census Bureau. (n.d.). POVERTY STATUS IN THE PAST 12 MONTHS. American Community Survey, ACS 1-Year Estimates Subject Tables, Table S1701. Retrieved November 19, 2026, from https://data.census.gov/table/ACSST1Y2018.S1701?q=california+poverty&g=040XX00US06$0500000.
 - [American Community Survey (ACS) Poverty Data Tables](https://www.census.gov/topics/income-poverty/poverty/data/tables/acs.html)
+- [Poverty Status in the Past 12 Months, California](https://data.census.gov/table/ACSST1Y2018.S1701?q=california+poverty&g=040XX00US06$0500000)
 - Data was collected by compiling mandatory household surveys conducted by the U.S. Census Bureau
 
 
-US Department of Agriculture Rural-Urban Codes: 
+**US Department of Agriculture Rural-Urban Codes:**
 - Citation: U.S. Department of Agriculture, Economic Research Service. (January 2024). Rural-Urban Continuum Codes. Accessed on 11/18/26. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes
 - [USDA Rural-Urban Continuum Codes](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/)
 - [Documentation](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation)
