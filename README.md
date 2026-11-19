@@ -15,14 +15,14 @@ _Who has the problem, what decision or need it involves, why it matters, and wha
 
 ## 2. Research question
 
-In California counties, is naloxone distribution per 100,000 residents associated with a larger drop in the share of fatal opioid overdoses after the Naloxone Distribution Project began?
+In California counties, is the amount of naloxone distribution per 100k residents associated with a larger drop in the share of fatal opioid overdoses after the Naloxone Distribution Project began?
 - **Response:** fatality share = overdose deaths ÷ (overdose deaths + overdose ER visits)
-- **Predictors:** naloxone kits per 100k, period (before: 2017–2018, after: 2022–2024), and their interaction
+- **Predictors:** naloxone kits per 100k, period (before: 2017–2018, after: 2022–2024)
 
 ## 3. Data acquisition
 
-- We intend to gather data from the California Overdose Surveillance Dashboard and the Naloxone Distribution Project.
-- Both of these are publicly available government datasets that can be downloaded.
+- We intend to gather data from the California Overdose Surveillance Dashboard, the Naloxone Distribution Project, the American Community Survey (Poverty Data Tables), and the US Department of Agriculture (Rural-Urban Continuum Codes)
+- All of these are publicly available government datasets with downloadable csv or XLS files.
 
 ### a. Confirm viability
 
@@ -36,14 +36,27 @@ California Overdose Surveillance Dashboard Data:
 
 Naloxone Distribution Project Data:
 - Citation: California Department of Health Care Services. (n.d.). Naloxone Distribution Project data. DHCS Opioid Response. Retrieved November 18, 2026, from https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/
-- Naloxone kits per 100k by county: from [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/)
+- Naloxone kits per 100k by county: from [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/), [Figure URL](https://datawrapper.dwcdn.net/7e1b4/29/)
 - Data was collected by Naloxone Distribution Project
+
+US Census Bureau Poverty Data Tables:
+- Poverty rate: Census American Community [Census American Community Survey](https://data.census.gov/)
+- [American Community Survey (ACS) Poverty Data Tables](https://www.census.gov/topics/income-poverty/poverty/data/tables/acs.html)
+- Data was collected by compiling mandatory household surveys conducted by the U.S. Census Bureau
+
+
+US Department of Agriculture Rural-Urban Codes: 
+- Citation: U.S. Department of Agriculture, Economic Research Service. (January 2024). Rural-Urban Continuum Codes. Accessed on 11/18/26. https://www.ers.usda.gov/data-products/rural-urban-continuum-codes
+- [USDA Rural-Urban Continuum Codes](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/)
+- [Documentation](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/documentation)
+- Data was collected by classifying US counties using 2020 Census, 2016–2020 ACS, and 2023 OMB metro data
 
 
 ### b. Variables of interest
 
 _If you do not have the data yet, list the variables you plan to collect and the exact question text. Include 1) the variable name, 2) data type 3) description. Use bullet points._
 
+- Naloxone kits by 100k
 - Overdose Rate: Quantitative
 - Overdose Count: Quantitative
 - Naloxone Distribution Rate by County: Quantitative
@@ -61,7 +74,8 @@ _Scraping: a URL and an annotated screenshot. Downloading: a link to your render
 
 _The techniques and functions you plan to use to import, wrangle, visualize, and explore the data, and why each is needed._
 
-- read_csv to import data
+- read_csv and read_xls to import data
+- filter() to only keep California counties
 - join by county name
 - linear_reg to model the relationship
 - geom_histogram/geom_point to visualize
