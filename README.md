@@ -1,4 +1,4 @@
-# Project 02 Proposal: <your project title>
+# Project 02 Proposal: Predicted Opioid Overdose Harm Reduction by Naloxone Distribution Rates in California Counties
 
 **Team members:** Aliyah Cardenas, Gabriel Stomberg-Fannon
 
@@ -28,13 +28,13 @@ In California counties, is naloxone distribution per 100,000 residents associate
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
 
-- California Overdose Surveillance Dashboard Data
+California Overdose Surveillance Dashboard Data:
 - Citation: California Overdose Surveillance Dashboard. Prepared by California Department of Public Health (CDPH) - Substance and Addiction Prevention Branch (SAPB). Accessed on 11/18/26. https://skylab.cdph.ca.gov/ODdash/.
 - [Data Definitions](https://skylab.cdph.ca.gov/ODdash/?tab=DD)
 - [Technical Documentation](https://skylab.cdph.ca.gov/ODdash/?tab=MTH)
 - Data was collected from California Department of Public Health 
 
-- Naloxone Distribution Project Data
+Naloxone Distribution Project Data:
 - Citation: California Department of Health Care Services. (n.d.). Naloxone Distribution Project data. DHCS Opioid Response. Retrieved November 18, 2026, from https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/
 - Naloxone kits per 100k by county: from [DHCS Naloxone Distribution Project data](https://californiaopioidresponse.org/outcomes/naloxone-distribution-project-data/)
 - Data was collected by Naloxone Distribution Project
@@ -70,7 +70,7 @@ _The techniques and functions you plan to use to import, wrangle, visualize, and
 _The models you plan to use, your response and predictor variables, and why the models fit your research question._
 
 - Model: simple linear regression: fatality_share ~ naloxone_rate
-- We expect there to be a mostly linear relationship between fatality share and naloxone distribution rate
+We expect there to be a mostly linear relationship between fatality share and naloxone distribution rate
 
 - Response: fatality share, quantitative: (overdose deaths ÷ (deaths + ER visits))
 
@@ -84,7 +84,6 @@ _How you plan to present your results (website, poster, or short slide presentat
 
 ## 8. LLM disclaimer
 
--No LLM use
-
 _Whether and how you will use AI tools: the specific tool, its use, and your data protection methods. If you won't use any, say so._
 
+-No LLM use
