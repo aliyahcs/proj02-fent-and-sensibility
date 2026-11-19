@@ -9,7 +9,7 @@ See the [Project 02 instructions](https://data385.github.io/project/proj02_whole
 _Who has the problem, what decision or need it involves, why it matters, and what you expect to find._
 
 - **Who:** California's Department of Health Care Services (DHCS) and county public health departments, which give out free naloxone (Narcan) through the Naloxone Distribution Project since 2018.
-- **Decision:** How to split a limited naloxone supply across 58 counties; If the distribution project is worth continuing.
+- **Decision:** Which counties are affected more, and how to split a limited naloxone supply across 58 counties with that considered; if the financial investment is proportionate to the number of lives it's actually saving.
 - **Why it matters:** Opioid overdoses, mostly fentanyl, are a leading cause of preventable death in California. Naloxone reverses opioid overdoses, so if it works and reaches the right places, more overdoses should end in survival.
 - **What we expect:** Counties with more naloxone per person will have a smaller share of fatal overdoses. 
 
@@ -85,21 +85,21 @@ _The techniques and functions you plan to use to import, wrangle, visualize, and
 
 _The models you plan to use, your response and predictor variables, and why the models fit your research question._
 
-- Model: simple linear regression: fatality_share ~ naloxone_rate
+- **Model:** multiple linear regression: fatality_share ~ naloxone_rate * period + poverty + rural
 We expect there to be a mostly linear relationship between fatality share and naloxone distribution rate
 
-- Response: fatality share, quantitative: (overdose deaths ÷ (deaths + ER visits))
+- **Response:** fatality share, quantitative: (overdose deaths ÷ (deaths + ER visits))
 
-- Predictors: naloxone kits per 100k (quantitative), period before/after the program (categorical)
+- **Predictors:** naloxone kits per 100k (quantitative), period before/after the program (categorical), poverty rate (quantitative), and rural/urban (categorical)
 
 ## 7. Communicate
 
 _How you plan to present your results (website, poster, or short slide presentation)._
 
--Slide show
+**- Slide show**
 
 ## 8. LLM disclaimer
 
 _Whether and how you will use AI tools: the specific tool, its use, and your data protection methods. If you won't use any, say so._
 
--No LLM use
+**-No LLM use**
